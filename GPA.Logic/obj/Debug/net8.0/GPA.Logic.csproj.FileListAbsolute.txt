@@ -1,0 +1,11 @@
+C:\Users\DECAGON\Desktop\VS-source\Oghene\GPACalculatorSolution\GPA.Logic\bin\Debug\net8.0\GPA.Logic.deps.json
+C:\Users\DECAGON\Desktop\VS-source\Oghene\GPACalculatorSolution\GPA.Logic\bin\Debug\net8.0\GPA.Logic.dll
+C:\Users\DECAGON\Desktop\VS-source\Oghene\GPACalculatorSolution\GPA.Logic\bin\Debug\net8.0\GPA.Logic.pdb
+C:\Users\DECAGON\Desktop\VS-source\Oghene\GPACalculatorSolution\GPA.Logic\obj\Debug\net8.0\GPA.Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DECAGON\Desktop\VS-source\Oghene\GPACalculatorSolution\GPA.Logic\obj\Debug\net8.0\GPA.Logic.AssemblyInfoInputs.cache
+C:\Users\DECAGON\Desktop\VS-source\Oghene\GPACalculatorSolution\GPA.Logic\obj\Debug\net8.0\GPA.Logic.AssemblyInfo.cs
+C:\Users\DECAGON\Desktop\VS-source\Oghene\GPACalculatorSolution\GPA.Logic\obj\Debug\net8.0\GPA.Logic.csproj.CoreCompileInputs.cache
+C:\Users\DECAGON\Desktop\VS-source\Oghene\GPACalculatorSolution\GPA.Logic\obj\Debug\net8.0\GPA.Logic.dll
+C:\Users\DECAGON\Desktop\VS-source\Oghene\GPACalculatorSolution\GPA.Logic\obj\Debug\net8.0\refint\GPA.Logic.dll
+C:\Users\DECAGON\Desktop\VS-source\Oghene\GPACalculatorSolution\GPA.Logic\obj\Debug\net8.0\GPA.Logic.pdb
+C:\Users\DECAGON\Desktop\VS-source\Oghene\GPACalculatorSolution\GPA.Logic\obj\Debug\net8.0\ref\GPA.Logic.dll
