@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ExtensionMethods\ExtensionMethods.csproj" />
     <ProjectReference Include="..\GPA.Logic\GPA.Logic.csproj" />
     <ProjectReference Include="..\GPA.Model\GPA.Model.csproj" />
   </ItemGroup>

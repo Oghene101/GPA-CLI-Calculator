@@ -7,34 +7,6 @@ public class GPAModel
     public List<int> CourseScores { get; } = [];
     public List<decimal> CourseGradePoints { get; } = [];
 
-    public char GetGrade(int courseScore)
-    {
-        if (courseScore >= 70)
-        {
-            return 'A';
-        }
-        else if (courseScore >= 60)
-        {
-            return 'B';
-        }
-        else if (courseScore >= 50)
-        {
-            return 'C';
-        }
-        else if (courseScore >= 45)
-        {
-            return 'D';
-        }
-        else if (courseScore >= 40)
-        {
-            return 'E';
-        }
-        else
-        {
-            return 'F';
-        }
-    }
-
     public decimal GetGradePoint(int courseScore)
     {
         if (courseScore >= 70)

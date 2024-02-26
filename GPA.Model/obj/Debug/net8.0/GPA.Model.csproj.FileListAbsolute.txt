@@ -9,3 +9,4 @@ C:\Users\DECAGON\Desktop\VS-source\Oghene\GPACalculatorSolution\GPA.Model\obj\De
 C:\Users\DECAGON\Desktop\VS-source\Oghene\GPACalculatorSolution\GPA.Model\obj\Debug\net8.0\refint\GPA.Model.dll
 C:\Users\DECAGON\Desktop\VS-source\Oghene\GPACalculatorSolution\GPA.Model\obj\Debug\net8.0\GPA.Model.pdb
 C:\Users\DECAGON\Desktop\VS-source\Oghene\GPACalculatorSolution\GPA.Model\obj\Debug\net8.0\ref\GPA.Model.dll
+C:\Users\DECAGON\Desktop\VS-source\Oghene\GPACalculatorSolution\GPA.Model\obj\Debug\net8.0\GPA.Model.sourcelink.json
