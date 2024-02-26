@@ -1,0 +1,58 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "GPACalculator.UI/1.0.0": {
+        "dependencies": {
+          "ExtensionMethods": "1.0.0",
+          "GPA.Logic": "1.0.0",
+          "GPA.Model": "1.0.0"
+        },
+        "runtime": {
+          "GPACalculator.UI.dll": {}
+        }
+      },
+      "ExtensionMethods/1.0.0": {
+        "runtime": {
+          "ExtensionMethods.dll": {}
+        }
+      },
+      "GPA.Logic/1.0.0": {
+        "runtime": {
+          "GPA.Logic.dll": {}
+        }
+      },
+      "GPA.Model/1.0.0": {
+        "runtime": {
+          "GPA.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GPACalculator.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ExtensionMethods/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GPA.Logic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GPA.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
