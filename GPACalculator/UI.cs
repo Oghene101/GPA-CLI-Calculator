@@ -7,26 +7,68 @@ public static class UI
 {
     public static void UserPrompt(GPAModel gpaModel)
     {
-        Console.Write("Enter course title: ");
-        var courseTitle = Console.ReadLine();
-        courseTitle.IsAValidCourseTitle();
+        bool active = true;
+        while (active)
+        {
+            Console.Write("Enter course title: ");
+            var courseTitle = Console.ReadLine();
 
-        gpaModel.CourseTitles.Add(courseTitle);
+            if (!courseTitle.IsAValidCourseTitle())
+            {
+                continue;
+            }
+            gpaModel.CourseTitles.Add(courseTitle);
+            active = false;
+        }
 
-        Console.Write("Enter course code: ");
-        var courseCode = Console.ReadLine();
-        gpaModel.CourseCodes.Add(courseCode);
+        active = true;
+        while (active)
+        {
+            Console.Write("Enter course code: ");
+            var courseCode = Console.ReadLine();
 
-        Console.Write("Enter course unit: ");
-        var courseUnitText = int.TryParse(Console.ReadLine(), out int courseUnit);
-        gpaModel.CourseUnits.Add(courseUnit);
+            if (!courseCode.IsAValidCourseCode())
+            {
+                continue;
+            }
+            gpaModel.CourseCodes.Add(courseCode);
+            active = false;
+        }
 
-        Console.Write("Enter score in course: ");
-        var courseScoreText = int.TryParse(Console.ReadLine(), out int courseScore);
-        gpaModel.CourseScores.Add(courseScore);
+        active = true;
+        while (active)
+        {
+            Console.Write("Enter course unit: ");
+            var courseUnitText = Console.ReadLine();
 
-        //Determining the grade point from the score and adding it to the list of grade points.
-        gpaModel.CourseGradePoints.Add(gpaModel.GetGradePoint(courseScore));
+            (bool isValid, int courseUnit) = courseUnitText.IsAValidNumber();
+            
+            if (!isValid)
+            {
+                continue;
+            }
+            gpaModel.CourseUnits.Add(courseUnit);
+            active = false;
+        }
+
+        active = true;
+        while (active)
+        {
+            Console.Write("Enter score in course: ");
+            var courseScoreText = Console.ReadLine();
+
+            (bool isValid, int courseScore) = courseScoreText.IsAValidNumber();
+
+            if (!isValid)
+            {
+                continue;
+            }
+            gpaModel.CourseScores.Add(courseScore);
+
+            //Determining the grade point from the score and adding it to the list of grade points.
+            gpaModel.CourseGradePoints.Add(gpaModel.GetGradePoint(courseScore));
+            active = false;
+        }
 
         Console.Clear();
     }
