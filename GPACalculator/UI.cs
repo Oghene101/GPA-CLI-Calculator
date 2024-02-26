@@ -61,4 +61,13 @@ public static class UI
         }
 
     }
+
+    public static void Footer(GPAModel gpaModel)
+    {
+        var cwgp = GPAFormula.WeightGradePoints.Sum();
+        var totalUnits = gpaModel.CourseUnits.Sum();
+        Console.WriteLine($"Total Unit: {totalUnits}");
+        Console.WriteLine($"CWGP: {cwgp}");
+        Console.WriteLine($"GPA: {GPAFormula.CalculateGPA(cwgp, totalUnits)}");
+    }
 }

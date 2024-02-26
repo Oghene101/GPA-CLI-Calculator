@@ -1,6 +1,19 @@
 ﻿namespace GPA.Model;
 public class GPAModel
 {
+    //Private static instance variable
+    private static GPAModel instance;
+
+    //Private constructor to prevent instantiation from outside
+    private GPAModel()
+    {
+    }
+
+    //Public static method to get the instance
+    public static GPAModel GetInstance()
+    {
+        return instance ??= new GPAModel();
+    }
     public List<string> CourseTitles { get; } = [];
     public List<string> CourseCodes { get; } = [];
     public List<int> CourseUnits { get; } = [];

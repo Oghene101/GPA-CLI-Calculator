@@ -19,3 +19,5 @@ C:\Users\DECAGON\Desktop\VS-source\Oghene\GPACalculatorSolution\GPACalculator\ob
 C:\Users\DECAGON\Desktop\VS-source\Oghene\GPACalculatorSolution\GPACalculator\obj\Debug\net8.0\GPACalculator.UI.genruntimeconfig.cache
 C:\Users\DECAGON\Desktop\VS-source\Oghene\GPACalculatorSolution\GPACalculator\obj\Debug\net8.0\ref\GPACalculator.UI.dll
 C:\Users\DECAGON\Desktop\VS-source\Oghene\GPACalculatorSolution\GPACalculator\obj\Debug\net8.0\GPACalculator.UI.sourcelink.json
+C:\Users\DECAGON\Desktop\VS-source\Oghene\GPACalculatorSolution\GPACalculator\bin\Debug\net8.0\ExtensionMethods.dll
+C:\Users\DECAGON\Desktop\VS-source\Oghene\GPACalculatorSolution\GPACalculator\bin\Debug\net8.0\ExtensionMethods.pdb
