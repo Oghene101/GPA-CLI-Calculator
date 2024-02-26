@@ -13,7 +13,7 @@ public static class UI
             Console.Write("Enter course title: ");
             var courseTitle = Console.ReadLine();
 
-            if (!courseTitle.IsAValidCourseTitle())
+            if (!courseTitle.IsAValidName())
             {
                 continue;
             }
