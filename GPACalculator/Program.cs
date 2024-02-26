@@ -1,18 +1,40 @@
-﻿using GPA.Model;
+﻿using ExtensionMethods;
+using GPA.Model;
 using GPACalculator.UI;
 
 Console.WriteLine("Welcome to the GPA calculator created by Ogheneruemu Karieren");
 
-Console.Write("Please enter student's fullname: ");
-var studentFullName = Console.ReadLine();
-
-Console.Write("How many courses did you offer? ");
-var numberOfCoursesOfferedText = int.TryParse(Console.ReadLine(), out int numberOfCoursesOffered);
+var studentFullName = "";
+bool active = true;
+while (active)
+{
+    Console.Write("Please enter student's fullname: ");
+    studentFullName = Console.ReadLine();
+    if (!studentFullName.IsAValidName())
+    {
+        continue;
+    }
+    active = false;
+}
 
 var gpaModel = GPAModel.GetInstance();
-for(int courses = 0; courses < numberOfCoursesOffered; courses++)
+active = true;
+while (active)
 {
-    UI.UserPrompt(gpaModel);
+    Console.Write("How many courses did you offer? ");
+    var numberOfCoursesOfferedText = Console.ReadLine();
+    (bool isValid, int numberOfCoursesOffered) = numberOfCoursesOfferedText.IsAValidNumber();
+
+    if(!isValid)
+    {
+        continue;
+    }
+
+    for (int courses = 0; courses < numberOfCoursesOffered; courses++)
+    {
+        UI.UserPrompt(gpaModel);
+    }
+    active = false;
 }
 
 UI.Header(studentFullName);

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GPA.Model")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2577dd68e0141a56d39d11d3e344f255a6191920")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54a8d3f096798dccecfc86b5dadf7a8a09e166bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("GPA.Model")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GPA.Model")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

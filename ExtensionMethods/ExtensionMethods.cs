@@ -3,14 +3,14 @@
 namespace ExtensionMethods;
 public static class ExtensionMethods
 {
-    public static bool IsAValidCourseTitle(this string courseTitle)
+    public static bool IsAValidName(this string courseTitle)
     {
         var pattern = @"^[A-Za-z- ]+$";
         Regex regex = new Regex(pattern);
         var isAWord = regex.IsMatch(courseTitle);
         if (!isAWord || courseTitle.Trim('-').Length is 0)
         {
-            Console.WriteLine("Enter a valid course title!");
+            Console.WriteLine("Enter a valid input !");
             return false;
         }
         return true;
@@ -33,7 +33,7 @@ public static class ExtensionMethods
     {
         if(!int.TryParse(text, out var parsedNumber))
         {
-            Console.WriteLine("Enter a valid course unit!");
+            Console.WriteLine("Enter a valid number!");
             return (false, -1);
         }
         return (true, parsedNumber);
